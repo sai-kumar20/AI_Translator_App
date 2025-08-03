@@ -1,0 +1,11 @@
+# Ignore build and distribution folders
+/dist/
+/build/
+
+# Ignore pyinstaller files
+*.spec
+*.exe
+
+# Ignore Python cache
+__pycache__/
+/*.pyc
