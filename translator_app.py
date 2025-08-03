@@ -4,6 +4,12 @@ from gtts import gTTS
 import base64
 import os
 
+
+st.set_page_config(
+    page_title="LanG-TransO",
+    page_icon="logo.png",  # You can use an emoji or a URL to an image
+    layout="centered"
+)
 # --- Page Config ---
 st.set_page_config(page_title="AI Translator", layout="centered")
 
